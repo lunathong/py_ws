@@ -1,0 +1,11 @@
+name,value,status,last_updated
+CPU Usage,45%,green,2025-12-11T12:00:00
+Memory Usage,82%,yellow,2025-12-11T12:00:00
+Disk Space,91%,red,2025-12-11T12:00:00
+Network Traffic,120Mbps,green,2025-12-11T12:00:00
+Database Latency,15ms,green,2025-12-11T12:00:00
+Cache Hit Rate,99%,green,2025-12-11T12:00:00
+Error Rate,0.01%,green,2025-12-11T12:00:00
+Active Users,1500,green,2025-12-11T12:00:00
+Queue Depth,450,yellow,2025-12-11T12:00:00
+API Response Time,250ms,green,2025-12-11T12:00:00

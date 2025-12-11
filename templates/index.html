@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Status Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Placeholder for icons, if needed -->
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <div class="header-content">
+                <h1><span class="pulse-dot"></span> System Monitor</h1>
+                <p id="last-updated">Updating...</p>
+            </div>
+            <div class="header-status">
+                <span class="badge">Live</span>
+            </div>
+        </header>
+
+        <main id="monitor-grid" class="monitor-grid">
+            <!-- Cards will be injected here via JS -->
+            <div class="loading-state">
+                <div class="spinner"></div>
+                <p>Establishing Connection...</p>
+            </div>
+        </main>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
